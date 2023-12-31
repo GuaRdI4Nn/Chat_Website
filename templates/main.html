@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourBuddy</title>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/all.min.css">
+  </head>
+  <body style=" overflow-x: hidden;">
+    <script src="/static/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <section>
+      <header>
+        <nav class="navbar shadow p-3 mb-3 bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="{{ url_for('main')}}">
+              <img src="/static/bot.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-bottom">
+              YourBuddy
+            </a>
+            <span>
+              <a class="navbar-brand" href="{{ url_for('alumni')}}">Alumni</a>
+              <a class="navbar-brand" href="{{ url_for('hackathon')}}">Hackathon</a>
+              <a class="navbar-brand" href="{{ url_for('logout')}}">Logout</a>
+            </span>
+            
+            
+          </div>
+        </nav>  
+      </header>
+{% with messages=get_flashed_messages() %}
+ {% for message in messages %}
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    {{message}}
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+ {% endfor %}
+{% endwith %}
+      <div class="container text-center mb-5">
+        <div class="row">
+          <div class="col-7"   style="border-right: 1px solid black ;">
+            <div class="content mt-5">
+              <div class="info" style="margin-right: 10%;">
+                <h1 style="color:black; font-size: 40px;">Your Buddy<br></h1>
+                <br>
+                <br>
+                
+                <p style="font-size: 20px;letter-spacing: 1px;line-height:50px ;">A website specially created for IITR junta with an inbuilt chatbot "YourBuddy".
+                  We have an Alumni section on this site which will help you find your alumni of interest based on his specialization.
+                  We also have a Hackathon section which gives you the details of the upcoming and going on Hackathons.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-5" >
+            <div class="text-center ml-50" style="margin-left: 15%;">
+              <img src="/static/bot.avif" class="rounded" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </section>
+    
+    <script>!(function () {
+      let e = document.createElement("script"),
+        t = document.head || document.getElementsByTagName("head")[0];
+      (e.src =
+        "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+        // Replace 1.x.x with the version that you want
+        (e.async = !0),
+        (e.onload = () => {
+          window.WebChat.default(
+            {
+              initPayload : '/greet',
+              customData: { language: "en" },
+              socketUrl: "http://localhost:5005",
+              // add other props here
+            },
+            null
+          );
+        }),
+        t.insertBefore(e, t.firstChild);
+    })();
+    </script>
+
+  </body>
+</html>
+      

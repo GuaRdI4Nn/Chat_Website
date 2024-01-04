@@ -45,7 +45,24 @@ Ensure you have the following installed:
   
 ### Installation
 
-1. Install Rasa:
+1. Install Python Flask :
+
+   - Create an environment
+     ```bash
+     > mkdir myproject
+     > cd myproject
+     > py -3 -m venv .venv
+     
+  - Activate the environment
+    ```bash
+    > .venv\Scripts\activate
+
+  -  Install Flask within the environment:
+     ```bash
+     $ pip install Flask
+
+
+2. Install Rasa in the same environment:
 
    ```bash
    pip3 install -U pip
@@ -53,10 +70,6 @@ Ensure you have the following installed:
    ```bash
    pip3 install rasa
    
-2. Install Python :
-
-   ```bash
-   pip3 install -U pip
 
 
    

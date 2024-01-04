@@ -64,4 +64,13 @@ Ensure you have the following installed:
    pip3 install -U pip
    
    pip3 install rasa
+
+### Running the bot and website:
+
+1. ```bash
+   python app.py
+
+2. ```bash
+   rasa run -m models --enable-api --cors "*"
+
    

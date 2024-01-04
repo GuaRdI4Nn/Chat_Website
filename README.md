@@ -25,7 +25,7 @@ The aim of this project is to make the IITR Junta aware of all the resources ava
 
 ## Demo
 
-live demo to showcase the website and the chatbot in action : https://drive.google.com/file/d/14klaAgM-PZMdQTUxCIAjDj0Oi4jTtYOM/view?usp=sharing
+Live demo to showcase the website and the chatbot in action: https://drive.google.com/file/d/14klaAgM-PZMdQTUxCIAjDj0Oi4jTtYOM/view?usp=sharing
 
 ## Getting Started
 

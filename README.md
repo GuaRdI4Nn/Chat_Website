@@ -12,10 +12,6 @@ A simple and interactive website featuring a chatbot ("YourBot") to help.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -29,7 +25,7 @@ The aim of this project is to make the IITR Junta aware of all the resources ava
 
 ## Demo
 
-link to the live demo to showcase the website and the chatbot in action : https://drive.google.com/file/d/14klaAgM-PZMdQTUxCIAjDj0Oi4jTtYOM/view?usp=sharing
+live demo to showcase the website and the chatbot in action : https://drive.google.com/file/d/14klaAgM-PZMdQTUxCIAjDj0Oi4jTtYOM/view?usp=sharing
 
 ## Getting Started
 
@@ -68,6 +64,8 @@ Ensure you have the following installed:
    pip3 install -U pip
    
    pip3 install rasa
+   
+ 
    
    
    

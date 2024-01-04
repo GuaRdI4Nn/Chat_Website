@@ -47,11 +47,11 @@ Ensure you have the following installed:
 
 1. Install Python Flask :
 
-   - Create an environment
-     ```bash
-     > mkdir myproject
-     > cd myproject
-     > py -3 -m venv .venv
+ - Create an environment
+   ```bash
+   > mkdir myproject
+   > cd myproject
+   > py -3 -m venv .venv
      
   - Activate the environment
     ```bash
@@ -67,8 +67,9 @@ Ensure you have the following installed:
    ```bash
    pip3 install -U pip
    
-   ```bash
    pip3 install rasa
+   
+   
    
 
 

@@ -1,9 +1,8 @@
 # Chatbot Website
 
 A simple and interactive website featuring a chatbot ("YourBot") to help.
-![Chatbot Website Screenshot](./screenshots/screenshot.png)
-<img width="1431" alt="image" src="https://github.com/GuaRdI4Nn/Chat_Website/assets/147473165/e6787bb6-5bc4-4c7e-b76d-10e5237a2f53">
 
+<img width="1431" alt="image" src="https://github.com/GuaRdI4Nn/Chat_Website/assets/147473165/e6787bb6-5bc4-4c7e-b76d-10e5237a2f53">
 
 ## Table of Contents
 

@@ -1,6 +1,6 @@
 # Chatbot Website
 
-A simple and interactive website featuring a chatbot to engage users.
+A simple and interactive website featuring a chatbot ("YourBot") to help.
 
 ## Table of Contents
 
@@ -17,16 +17,17 @@ A simple and interactive website featuring a chatbot to engage users.
 
 ## Introduction
 
-Welcome to the Chatbot Website project! This website aims to provide a user-friendly interface for interacting with a chatbot. Whether you want to ask questions, get information, or just have a casual conversation, our chatbot is here to assist you.
+The aim of this project is to make the IITR Junta aware of all the resources available to them in a very user-friendly manner using a chatbot ( I call it “YourBuddy”). This project will help each student of IITR by helping them decide on their career through ML-based recommendations, connecting them with alumni of IITR in the respective field of interest through an internal feed algorithm, personalized internship /hackathons recommendations, and many more functionalities. I have integrated this chatbot with a website and give Janta a smoothless experience.
 
 ## Features
 
 - **Interactive Chatbot:** Engage in conversations with our chatbot.
-- **User-Friendly Interface:** Easy navigation and a clean design for a seamless user experience.
+- **Alumni Connect:** Connecting with alumni of interest through a filter of field (Software Development / ML).
+- **Hackathon Connect:** Informing about the going on/upcoming/completed hackathons and internships.
 
 ## Demo
 
-Include a link to a live demo or screenshots to showcase the website and the chatbot in action.
+link to the live demo to showcase the website and the chatbot in action : https://drive.google.com/file/d/14klaAgM-PZMdQTUxCIAjDj0Oi4jTtYOM/view?usp=sharing
 
 ## Getting Started
 
@@ -36,7 +37,7 @@ Follow these steps to set up the project on your local machine.
 
 Ensure you have the following installed:
 
-- Web browser
+- rasa ( latest version 
 - Node.js (version x.x.x)
 - npm (version x.x.x)
 

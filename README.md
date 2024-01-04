@@ -65,11 +65,3 @@ Ensure you have the following installed:
    
    pip3 install rasa
    
- 
-   
-   
-   
-
-
-   
-

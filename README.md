@@ -1,6 +1,9 @@
 # Chatbot Website
 
 A simple and interactive website featuring a chatbot ("YourBot") to help.
+![Chatbot Website Screenshot](./screenshots/screenshot.png)
+<img width="1431" alt="image" src="https://github.com/GuaRdI4Nn/Chat_Website/assets/147473165/e6787bb6-5bc4-4c7e-b76d-10e5237a2f53">
+
 
 ## Table of Contents
 
@@ -37,14 +40,25 @@ Follow these steps to set up the project on your local machine.
 
 Ensure you have the following installed:
 
-- rasa ( latest version 
-- Node.js (version x.x.x)
-- npm (version x.x.x)
-
+- Python ( version 3.8.x)
+- rasa (version 2.4.x)
+- Flask ( version 3.0.x)
+  
 ### Installation
 
-1. Clone the repository:
+1. Install Rasa:
 
    ```bash
-   git clone https://github.com/yourusername/chatbot-website.git
+   pip3 install -U pip
+   
+   ```bash
+   pip3 install rasa
+   
+2. Install Python :
+
+   ```bash
+   pip3 install -U pip
+
+
+   
 

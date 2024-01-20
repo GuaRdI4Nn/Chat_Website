@@ -38,6 +38,8 @@ Ensure you have the following installed:
 - Python ( version 3.8.x)
 - rasa (version 2.4.x)
 - Flask ( version 3.0.x)
+- flask_sqlalchemy,flask_migrate,flask_wtf,wtforms,flask_login,flask_ckeditor,werkzeug.utils (all these are to be installed in the virtual environment created)
+- if facing error with running, install python in the venv and then change the interpreter path to the one in venv in VSCode.
   
 ### Installation
 

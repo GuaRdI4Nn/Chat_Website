@@ -15,7 +15,10 @@ A simple and interactive website featuring a chatbot ("YourBot") to help.
 
 ## Introduction
 
-The aim of this project is to make the IITR Junta aware of all the resources available to them in a very user-friendly manner using a chatbot ( I call it “YourBuddy”). This project will help each student of IITR by helping them decide on their career through ML-based recommendations, connecting them with alumni of IITR in the respective field of interest through an internal feed algorithm, personalized internship /hackathons recommendations, and many more functionalities. I have integrated this chatbot with a website and give Janta a smoothless experience.
+The aim of this project is to make the IITR Junta aware of all the resources available to them in a very user-friendly manner using a chatbot ( I call it “YourBuddy”).
+The website feature a login form which the user gets redirected to, if account is not created then a link down helps the user create an account and then login with the credentials. The login system is responsive and tells if the user doesn't exits or the password is wrong by flashing the messages on the website.
+On successful login user gets redirected to the main page which has the chatbot at the bottom right. The website also has links of hackathons and alumni on the navbar. Both of them contains a filter menu to filter out data. There is also an logut link which logouts the current user and redirects to login page with a flash message.
+This project will help each student of IITR by helping them decide on their career through ML-based recommendations, connecting them with alumni of IITR in the respective field of interest through an internal feed algorithm, personalized internship /hackathons recommendations, and many more functionalities. I have integrated this chatbot with a website and give Janta a smoothless experience.
 
 ## Features
 
@@ -58,6 +61,11 @@ Ensure you have the following installed:
   -  Install Flask within the environment:
      ```bash
      $ pip install Flask
+     $ pip install flask-sqlalchemy
+     $ pip install flask-migrate
+     $ pip install flask-wtf
+     $ pip install flask-login
+     $ pip install flask-ckeditor
 
 
 2. Install Rasa in the same environment:
